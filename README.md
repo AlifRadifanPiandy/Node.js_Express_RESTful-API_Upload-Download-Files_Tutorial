@@ -48,21 +48,19 @@ npm start
 
 The server will start on port 3000.
 
-## API Endpoints
+## API Documentation
 
-The following API endpoints are available:
+API documentation is available in Postman format. You can import the Postman JSON file that accompanies this project to get complete documentation about the API endpoints and required requests.
 
-- `POST /upload`: Upload a file.
-- `GET /files`: Get a list of all uploaded files.
-- `GET /files/:filename`: Download a file.
-- `DELETE /files/:filename`: Delete a file.
+https://documenter.getpostman.com/view/24200467/2sA3XJn5bU
 
-## Built With
+## Contributing
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [Multer](https://www.npmjs.com/package/multer)
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
